@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <circle cx="32" cy="32" r="30" fill="url(#bg)"/>
+
+  <!-- Breathing circle -->
+  <circle
+    cx="32"
+    cy="32"
+    r="12"
+    fill="none"
+    stroke="white"
+    stroke-width="3"
+  />
+
+  <!-- Air flow waves -->
+  <path
+    d="M10 32 C14 28, 18 28, 22 32"
+    fill="none"
+    stroke="white"
+    stroke-width="2.5"
+    stroke-linecap="round"
+  />
+
+  <path
+    d="M42 32 C46 28, 50 28, 54 32"
+    fill="none"
+    stroke="white"
+    stroke-width="2.5"
+    stroke-linecap="round"
+  />
+</svg>
